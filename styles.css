@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: orange;
+}
+
+a {
+    color: black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.funnynumbers {
+    padding: 100px;
+}
