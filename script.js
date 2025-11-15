@@ -5,7 +5,6 @@ function calculateInflation() {
 
     let diff = currentDate - startingDate;
     diff = Math.round(diff / 1000);
-    console.log(`Diff in seconds: ${diff}`);
 
     let sixtyNine = 69;
     let fourTwenty = 420;
@@ -16,9 +15,6 @@ function calculateInflation() {
     funnyNumbersHTML = document.getElementsByTagName("h2");
     funnyNumbersHTML[0].innerHTML = sixtyNine;
     funnyNumbersHTML[1].innerHTML = fourTwenty;
-
-    console.log(sixtyNine);
-    console.log(fourTwenty);
 }
 
 setInterval(calculateInflation, 1000)
