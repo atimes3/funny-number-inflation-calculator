@@ -10,7 +10,7 @@ function calculateInflation() {
     let fourTwenty = 420;
 
     sixtyNine = Math.round(sixtyNine * (1.035 ** (diff / 60)));
-    fourTwenty = Math.round(sixtyNine * (1.035 ** (diff / 60)));
+    fourTwenty = Math.round(fourTwenty * (1.035 ** (diff / 60)));
     
     funnyNumbersHTML = document.getElementsByTagName("h2");
     funnyNumbersHTML[0].innerHTML = sixtyNine;
